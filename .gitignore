@@ -1,0 +1,7 @@
+.idea
+coverage
+.DS_Store
+poker.txt
+console-poker*gem
+tags
+*.gem
