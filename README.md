@@ -17,7 +17,7 @@ Run:
 ## Status
 
 [![Ruby](https://github.com/gdonald/console-poker-ruby/workflows/Ruby/badge.svg)](https://github.com/gdonald/console-poker-ruby/actions)
-[![Downloads](https://ruby-gem-downloads-badge.herokuapp.com/console-poker?color=blue&type=total&total_label=)](https://rubygems.org/gems/console-poker)
+[![Downloads](https://img.shields.io/gem/dt/console-poker?color=blue)](https://rubygems.org/gems/console-poker)
 
 ## License
 
