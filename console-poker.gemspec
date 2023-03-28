@@ -5,7 +5,7 @@ require 'rake'
 Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 3.1'
   spec.name = 'console-poker'
-  spec.version = '1.0.0'
+  spec.version = '1.0.1'
   spec.summary = 'Console Poker'
   spec.description = 'Poker for your console, full version.'
   spec.author = 'Greg Donald'
