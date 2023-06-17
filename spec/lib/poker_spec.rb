@@ -173,7 +173,7 @@ RSpec.describe Poker do
       end
     end
 
-    context 'when the player hand is already payed' do
+    context 'when the player hand is already paid' do
       before do
         allow(poker).to receive(:build_new_hand)
         allow(hand).to receive(:ask_hand_action)

@@ -28,7 +28,7 @@ RSpec.describe Hand do
   end
 
   describe '#pay' do
-    context 'when a winning hand is unpayed' do
+    context 'when a winning hand is unpaid' do
       let(:hand) { build(:hand, :one_pair, poker:) }
 
       it 'adds the result to the poker money' do
@@ -38,7 +38,7 @@ RSpec.describe Hand do
       end
     end
 
-    context 'when a losing hand is unpayed' do
+    context 'when a losing hand is unpaid' do
       let(:hand) { build(:hand, :unknown, poker:) }
 
       it 'subtracts the result from the poker money' do
@@ -48,7 +48,7 @@ RSpec.describe Hand do
       end
     end
 
-    context 'when hand is already payed' do
+    context 'when hand is already paid' do
       before { hand.result = 500 }
 
       it 'ignores a hand with a result' do
