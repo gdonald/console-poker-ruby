@@ -81,7 +81,7 @@ class HandRanker
       uniq_count_one?(vals, 3, 4)
   end
 
-  def uniq_count_one?(array, *args)
-    array.values_at(*args).uniq.count == 1
+  def uniq_count_one?(array, *)
+    array.values_at(*).uniq.count == 1
   end
 end

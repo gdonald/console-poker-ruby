@@ -2,7 +2,7 @@
 
 RSpec.describe Poker do
   let(:hand) { build(:hand, poker:) }
-  let(:deck) { build(:deck, :new_regular) }
+  let(:deck) { build(:deck) }
   let(:poker) { build(:poker, deck:) }
   let(:input) { StringIO.new }
 

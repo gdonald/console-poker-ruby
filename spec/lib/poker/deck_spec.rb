@@ -101,7 +101,7 @@ RSpec.describe Deck do
   end
 
   describe '#next_card' do
-    let(:deck) { build(:deck, :new_regular, poker:) }
+    let(:deck) { build(:deck, poker:) }
 
     it 'removes the next card' do
       expect { deck.next_card }.to change(deck.cards, :size).by(-1)

@@ -10,7 +10,7 @@ FactoryBot.define do
   end
 
   trait :with_deck do
-    deck { build(:deck, :new_regular) }
+    deck
   end
 
   initialize_with { new }

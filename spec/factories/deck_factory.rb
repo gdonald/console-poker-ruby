@@ -5,9 +5,7 @@ FactoryBot.define do
     poker { nil }
     cards { [] }
 
-    trait :new_regular do
-      after(:build, &:new_regular)
-    end
+    after(:build, &:new_regular)
 
     initialize_with { new(poker) }
   end
